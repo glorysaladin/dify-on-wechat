@@ -112,8 +112,10 @@ class GeWeChatChannel(ChatChannel):
             ats = ""
             if gewechat_message and gewechat_message.is_group:
                 ats = gewechat_message.actual_user_id
-            self.client.post_text(self.app_id, receiver, reply_text, ats)
-            logger.info("[gewechat] Do send text to {}: {}".format(receiver, reply_text))
+            receivers = receiver.strip().split(",")
+            for rec in receivers:
+                self.client.post_text(self.app_id, rec, reply_text, ats)
+                logger.info("[gewechat] Do send text to {}: {}".format(rec, reply_text))
         elif reply.type == ReplyType.VOICE:
             try:
                 content = reply.content
