@@ -1,0 +1,24 @@
+{
+    "post_id": 17865,
+    "web_url": [
+        "https://20241230.online",
+        "https://www.affdz.com"
+    ],
+    "daily_limit": 1,
+    "movie_cards": "/home/lighthouse/project/movie_infos/movie_card_datas.pkl",
+    "movie_whitelist": "/home/lighthouse/project/movie_infos/moviename_whitelist.pkl",
+    "ads": "/home/lighthouse/project/movie_infos/movie_ads.pkl",
+    "favorite_movie": "/home/workspace/chatgpt-on-wechat2/plugins/movie/favorite_movie.pkl",
+    "movie_version": "/home/workspace/chatgpt-on-wechat2/plugins/movie/movie_update_version.pkl",
+    "feishu_link": "https://vqaf8mnvaxw.feishu.cn/sheets/KyRFsX7xHhvYKWtmH24c3jFhnmd?sheet=f0cbff",
+    "duanju_url": "http://8.141.94.24:5000/moviespace02/duanju.txt",
+    "quark_auto_save_url": "http://8.141.94.24:5257/",
+    "quark_auto_save_image": "quark-auto-save-xin",
+    "fixed_ads_id": "",
+    "open_ads": false,
+    "open_limit": false,
+    "hongbao_reciver": "阿木达",
+    "open_movie_search": true,
+    "show_movie_link": true,
+    "only_affdz": false
+}
